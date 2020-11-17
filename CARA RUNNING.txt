@@ -1,2 +1,8 @@
 1. buka command line
 2. ketikan perintah "java -jar 'nama_file1' 'nama_file2'"
+
+
+GITHUB = https://github.com/hadinata12/JavaProjectDgitRepo
+
+BITBUCKET = https://hadinata12@bitbucket.org/hadinata12/javaprojectdgitrepo.git
+

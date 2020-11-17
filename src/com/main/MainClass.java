@@ -13,6 +13,7 @@ public class MainClass {
 
 	public static void main(String[] args) throws Exception { 
 		
+		
 		/*
 		 * File folder = new File("F://deploy"); File[] listOfFiles =
 		 * folder.listFiles();
@@ -27,7 +28,8 @@ public class MainClass {
 		 * String actual = Files.readString(fileName); System.out.println(actual);
 		 */
         
-        String[] file = {"F://deploy//input.txt","F://deploy//index.php"}; 
+        //String[] file = {"F://deploy//input.txt","F://deploy//index.php"};
+		//String[] file = {"F://deploy//input.txt"};
         for(int i=0;i<args.length;i++) {
         	countWordsCapital(args[i]);
         	 countWords(args[i]);
@@ -69,10 +71,15 @@ public class MainClass {
 	      while((s=br.readLine())!=null)    //Reading Content from the file
 	      {
 	         words=s.split(" ");   //Split the word using space
-	         wc=wc+words.length;   //increase the word count for each word
+	        for(int i=0;i<words.length;i++) {
+	        	if (words[i].length() > 5) {
+		        	wc=wc+1;   //increase the word count for each word
+		         }
+	        }
+	         
 	      }
 	      fr.close();
-	      System.out.println("Number of words in the file: "+file+ " = " +wc);
+	      System.out.println("Number of words that longer than 5 char in the file: "+file+ " = " +wc);
 	}
 }
 
