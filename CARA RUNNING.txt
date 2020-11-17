@@ -1,0 +1,2 @@
+1. buka command line
+2. ketikan perintah "java -jar 'nama_file1' 'nama_file2'"
