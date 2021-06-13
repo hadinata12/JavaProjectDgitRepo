@@ -22,4 +22,6 @@ ini di branch master
 
 lihat kebunku penuh dengan bunga
 
+ini master
+
 
