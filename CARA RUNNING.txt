@@ -7,12 +7,3 @@ GITHUB = https://github.com/hadinata12/JavaProjectDgitRepo
 BITBUCKET = https://hadinata12@bitbucket.org/hadinata12/javaprojectdgitrepo.git
 
 
-
-huhu
-
-master saya
-master
-
-develop
-
-hihi
